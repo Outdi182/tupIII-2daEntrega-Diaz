@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destacados</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Destacados</h1>
+    </header>
+
+    <main>
+        <nav>
+            <a href="index.html">Volver al inicio</a>
+            <a href="listado.html">Ir al listado</a>
+        </nav>
+
+        <section class="section-box">
+            <h2>Tarjetas seleccionables</h2>
+
+            <div class="grid" id="contenedorTarjetas">
+                <div class="card tarjeta" data-nombre="Minecraft">
+                    <h3>Minecraft</h3>
+                    <p>Videojuego de construcción y aventura llena de peligros.</p>
+                </div>
+
+                <div class="card tarjeta" data-nombre="FIFA">
+                    <h3>FIFA</h3>
+                    <p>Juego de fútbol competitivo.</p>
+                </div>
+
+                <div class="card tarjeta" data-nombre="Resident Evil">
+                    <h3>Resident Evil</h3>
+                    <p>Juego survival horror clásico.</p>
+                </div>
+
+                <div class="card tarjeta" data-nombre="Mario Kart">
+                    <h3>Mario Kart</h3>
+                    <p>Carreras divertidas con personajes clásicos, para jugar solo o con amigos.</p>
+                </div>
+            </div>
+
+            <p id="contadorSeleccionadas" class="info">Seleccionadas: 0</p>
+        </section>
+    </main>
+
+    <script src="destacados.js"></script>
+</body>
+</html>
