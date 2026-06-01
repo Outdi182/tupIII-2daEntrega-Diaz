@@ -1,7 +1,7 @@
 const productos = [
     { nombre: "Manzana", categoria: "Fruta" },
     { nombre: "Banana", categoria: "Fruta" },
-    { nombre: "Naranja", categoria: "Fruta" },
+    { nombre: "Mandarina", categoria: "Fruta" },
     { nombre: "Pan", categoria: "Panificación" },
     { nombre: "Galletitas", categoria: "Panificación" },
     { nombre: "Yogur", categoria: "Lácteo" }
